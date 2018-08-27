@@ -37,7 +37,7 @@ public class StringProcessing {
                 String age = line[2];
                 String gender = line[3];
                 String phoneNum = line[4];
-                String email = line[4];
+                String email = line[5];
 
                 records[currentIndex] = String.format("%-20s%-20s%-10s%20s%-20s%-20s", firstName, lastName, age, gender, phoneNum, email);
                 System.out.println(records[currentIndex]);
@@ -51,5 +51,7 @@ public class StringProcessing {
         return records;
 
     }
+    
+   
 
 }
